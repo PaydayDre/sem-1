@@ -27,8 +27,8 @@
     <build>
         <plugins>
             <plugin>
-                <artifactId>maven-assembly-plugin</artifactId>
-                <configuration>
+                 <artifactId>maven-assembly-plugin</artifactId>
+                  <configuration>
                     <archive>
                         <manifest>
                             <mainClass>com.napier.sem.App</mainClass>
