@@ -1,0 +1,22 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+:Main Admin: as Admin
+(Population) as (Use)
+
+User -> (Start)
+User --> (organization)
+
+Admin ---> (Use)
+
+note right of Admin : This is an example.
+
+note right of (Use)
+A note can also
+be on several lines
+end note
+
+note "top populated countries." as N
+(Start) .. N2
+N2 .. (Use)
+@enduml
