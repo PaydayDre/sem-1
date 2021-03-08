@@ -1,10 +1,10 @@
-# USE CASE:8 Delete employee details
+# USE CASE:8 Organize  the population from largest to smallest of all cities in a continent.
 
 ## CHARACTERISTIC INFORMATION
 
 ### Goal in Context
 
-As an *HR advisor* I want *to delete employee's details* so that *the company is compliant with data retention legislation.*
+As a *Census Evaluator* I want *to organize the population of all cities in the world from largest to smallest* so that *can analyze this data to make reports.*
 
 ### Scope
 
@@ -16,28 +16,27 @@ Primary task.
 
 ### Preconditions
 
-The Database has the employee information.
+The Database allows for sorting the population & continents
 
 ### Success End Condition
 
-The employee information is deleted from the database.
+The population of all cities in a continent are organized from largest to smallest.
 
 ### Failed End Condition
 
-The employee information is not deleted from the database.
+The population of all cities in a continent are not organized from largest to smallest.
 
 ### Primary Actor
 
-HR Advisor.
+Census Evaluator
 
 ### Trigger
 
-The employee no longer works for the company.
+A report is requested on the population of cities in a continent from largest to smallest.
 
 ## MAIN SUCCESS SCENARIO
 
-1. HR advisor deletes employee information to the database.
-
+1. A report is provided on the population of all cities in a continent sorted from largest to smallest.
 
 ## EXTENSIONS
 

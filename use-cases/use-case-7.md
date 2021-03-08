@@ -1,10 +1,10 @@
-# USE CASE:7 Update an employee details
+# USE CASE:7 Organize  the population from largest to smallest of all cities in the world.
 
 ## CHARACTERISTIC INFORMATION
 
 ### Goal in Context
 
-As an *HR advisor* I want *to update an employee's details* so that *employee's details can be kept up-to-date.*
+As a *Census Evaluator* I want *to organize the population of all cities in the world from largest to smallest* so that *can analyze this data to make reports.*
 
 ### Scope
 
@@ -16,28 +16,26 @@ Primary task.
 
 ### Preconditions
 
-The Database allows for updating employee information.
+The Database allows for sorting the population & cities.
 
 ### Success End Condition
 
-The new employee information is added to the database.
+The population of all the cities in the world are organized from largest to smallest in a report.
 
 ### Failed End Condition
 
-The new employee information is not added to the database.
+The population of all the cities in the world are not organized from largest to smallest in a report.
 
 ### Primary Actor
 
-HR Advisor.
+Census Evaluator.
 
 ### Trigger
 
-There is a change in the employee's information.
-
+A request is made for the population of all the cities in the world are not organized from largest to smallest in a report.
 ## MAIN SUCCESS SCENARIO
 
-1. HR advisor updates employee's information to the database.
-2. New employees information is successfully added to the database.
+1. A report on the population of all cities in the world sorted from largest to smallest is provided.
 
 
 ## EXTENSIONS
